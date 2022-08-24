@@ -1,0 +1,7 @@
+#include <stdio.h> 
+#include <math.h>
+#include <locale.h>
+
+void main(){	float nas, atu, ida;	printf("Digite seu ano de nascimento completo:\n ");	scanf_s("%f", &nas);	printf("Digite o ano atual:\n ");	scanf_s("%f", &atu);	ida = atu - nas;		if (ida < 0)		{		printf("\n\nVOCE ESTA MENTINDO!\n\nMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\nMMMMMMMMMMMM        MMMMMMMMMMMM\nMMMMMMMMMM            MMMMMMMMMM\nMMMMMMMMM              MMMMMMMMM\nMMMMMMMM                MMMMMMMM\nMMMMMMM                 MMMMMMMM\nMMMMMMM                  MMMMMMM\nMMMMMMM                  MMMMMMM\nMMMMMMM    MMM    MMM    MMMMMMM\nMMMMMMM   MMMMM   MMMM   MMMMMMM\nMMMMMMM   MMMMM   MMMM   MMMMMMM\nMMMMMMMM   MMMM M MMMM  MMMMMMMM\nMMVKMMMM        M        MMMMMMM\nMMMMMMMMMMMM   MMM  MMMMMMMMMMMM\nMMMMMMMMMM MM       M  MMMMMMMMM\nMMMMMMMMMM  M M M M M MMMMMMMMMM\nMMMM  MMMMM MMMMMMMMM MMMMM   MM\nMMM    MMMM M MMMMM M MMMM    MM\nMMM    MMMM   M M M  MMMMM   MMM\nMMMM    MMMM         MMM      MM\nMMM       MMMM     MMMM       MM\nMMM         MMMMMMMM      M  MMM\nMMMM  MMM      MMM      MMMMMMMM\nMMMMMMMMMMM  MM       MMMMMMM  M\nMMM  MMMMMMM       MMMMMMMMM   M\nMM    MMM        MM            M\nMM            MMMM            MM\nMMM        MMMMMMMMMMMMM       M\nMM      MMMMMMMMMMMMMMMMMMM    M\nMMM   MMMMMMMMMMMMMMMMMMMMMM   M\nMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n");
+		}
+			else		{		printf("sua idade eh : %f", ida);		}			getche();}
